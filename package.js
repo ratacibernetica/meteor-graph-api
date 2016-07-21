@@ -1,5 +1,5 @@
 Package.describe({
-	name: 'dferber:graph-api',
+	name: 'ratacibernetica:meteor-graph-api',
 	version: '0.0.1',
 	summary: 'Conveniently use Facebook Graph API on the server.',
 	git: 'https://github.com/dferber90/meteor-graph-api',
@@ -32,3 +32,4 @@ Package.onTest(function(api){
 
 	api.addFiles('tests/GraphAPI.js', ['server']);
 });
+

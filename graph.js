@@ -68,5 +68,10 @@ _.extend(GraphAPI.prototype, {
 
 	post: function (edge, params) {
 		return this._call('POST', edge, params);
-	}
+	},
+
+	delete: function (edge, params) {
+                return this._call('DELETE', edge, params);
+        } 
+
 });
